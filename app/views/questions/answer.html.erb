@@ -1,0 +1,10 @@
+<%# display the question you ask your coach as well as his answer. %>
+<div class="container-xl pt-5">
+<%= @question %>
+<div class="card mb-3" style="max-width: 540px;">
+<%= @answer %>
+</div>
+
+<h1 class="mb-5"></h1>
+<%= link_to "Ask a new question", ask_path %>
+</div>
